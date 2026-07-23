@@ -1,0 +1,72 @@
+Todolist:
+✅ Ajouter une tâche
+✅ Supprimer une tâche
+✅ Marquer une tâche comme faite
+✅ Les données sont stockées dans un tableau d'objets
+✅ L'affichage est reconstruit avec showElement()
+⏳ Filtre All / Todo / Done
+⏳ Sauvegarde avec localStorage
+⏳ Modifier une tâche
+⏳ Vraies dates
+
+Calculator:
+Version 1 (Obligatoire) ⭐
+Objectif : une calculatrice qui fonctionne parfaitement.
+Interface
+ Affichage de l'écran
+ Boutons 0 → 9
+ Bouton +
+ Bouton -
+ Bouton ×
+ Bouton ÷
+ Bouton =
+ Bouton C (Clear)
+Fonctionnalités
+ Cliquer sur un chiffre l'ajoute à l'écran
+ Cliquer sur un opérateur l'ajoute à l'écran
+ "=" calcule le résultat
+ "C" vide tout
+ Empêcher deux opérateurs à la suite
+ Empêcher de commencer par × ou ÷
+ Gestion de la division par 0
+
+Version 2 ⭐⭐
+Rendre la calculatrice agréable.
+ Bouton ← (supprimer le dernier caractère)
+ Bouton .
+ Support des nombres décimaux
+ Utiliser le clavier du PC
+ Appuyer sur Entrée = calcul
+ Appuyer sur Backspace = effacer un caractère
+
+Version 3 ⭐⭐⭐
+Améliorer l'expérience.
+ Historique des calculs
+ Bouton pour effacer l'historique
+ Copier un résultat
+ Dernier résultat réutilisable
+Exemple :
+5 + 3 = 8
+8 × 4 = 32
+
+Version 4 ⭐⭐⭐⭐
+Calculatrice scientifique.
+ %
+ ±
+ √
+ x²
+ xʸ
+ sin
+ cos
+ tan
+ log
+ π
+
+Version 5 ⭐⭐⭐⭐⭐
+Projet presque professionnel.
+ Sauvegarder l'historique (localStorage)
+ Mode sombre
+ Mode clair
+ Animation des boutons
+ Responsive téléphone
+ Sons lors des clics (option)

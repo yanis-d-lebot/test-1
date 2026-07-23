@@ -413,7 +413,117 @@ body{
     text-align: center;
     transition: 0.5s ease;
 }
-
+.add_item_todolist{
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 30px;
+}
+.button_add_item_todolist{
+    display: inline-block;
+    width: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: #fff 2px solid;
+    font-size: 30px;
+}
+.filter_item_todolist{
+    display: inline-block;
+    width: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    border: #fff 2px solid;
+    font-size: 30px;
+}
+.filter_all_item_todolist{
+    display: none;
+    width: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: #000 2px solid;
+    font-size: 30px;
+}
+.filter_todo_item_todolist{
+    display: none;
+    width: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: #000 2px solid;
+    font-size: 30px;
+}
+.filter_done_item_todolist{
+    display: none;
+    width: 70px;
+    margin-top: 1%;
+    margin-left: 1%;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: #000 2px solid;
+    font-size: 30px;
+}
+.element_table{
+    display: block;
+}
+.container_items_todolist{
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 70%;
+    height: 300px;
+    color: #fff;
+    background-color: #000;
+    border: #fff 2px solid;
+    font-size: 30px;
+}
+.element_table{
+    display: block;
+    padding: 2px;
+}
+.delet_element_table{
+    display: inline-block;
+    width: 30px;
+    margin-left: 2%;
+    background-color: #fff;
+    border: #8b8b8b 2px solid;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.delet_element_table:hover{
+    background-color: #000;
+    border: #ff4444 2px solid;
+    color: #ff4444;
+}
+.done_element_table{
+    display: inline-block;
+    width: 30px;
+    margin-left: 2%;
+    background-color: #fff;
+    border: #8b8b8b 2px solid;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.done_element_table:hover{
+    background-color: #000;
+    border: #45fd4e 2px solid;
+    color: #45fd4e;
+}
+.count_items_todolist{
+    margin-top: 1%;
+    font-size: 30px;
+}
 
 /* CALCULATOR */
 .container_calculator{

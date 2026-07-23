@@ -59,7 +59,6 @@ function manageAzertype(){
         chronoAzertype.textContent = "60s"
     }
 
-
     function normalize(word){
         if(normalize(wordUserAzertype.value) === normalize(wordAzertype.textContent)){
             return word.normalize("NFD").replace(/[\u0300-\u036f]/g,'').toLowerCase()
